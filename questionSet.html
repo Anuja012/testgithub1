@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//Print numbers from 1 to 10 using a for loop.
+
+for(let x=0; x<10; x++){
+    console.log(x);
+}
+
+
+//Calculate the sum of all even numbers from 1 to 50 using a for loop.
+
+let summ= 0;
+for(let x=0; x<=50; x++){
+
+if(x%2==0)
+{
+summ= summ+x;
+}
+}
+console.log(summ);
+
+//Print the multiplication table of a given number using a for loop.
+
+let n=5;
+for(let x= 1; x<=10; x++){
+console.log(n*x);
+}
+
+//Create a loop that prints a pattern of stars in the shape of a right triangle.
+
+for(var i=1;i<=4; i++){
+        var strng="";
+        for(var j=1;j<=i; j++){
+           strng=strng+j;
+        }
+        console.log(strng);
+  }
+
+  //Iterate through an array of names and print each name using a for loop
+ let arr=["anuja","annu","bannu"]
+ for (let i=0; i<arr.length; i++){
+console.log(arr[i]);
+
+ }
+
+
+        </script>
+</body>
+</html>
